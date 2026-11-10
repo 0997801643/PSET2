@@ -1,0 +1,15 @@
+id: test_conexion_snowflake
+namespace: cerveceria.pset2
+
+tasks:
+  - id: probar_conexion
+    type: io.kestra.plugin.jdbc.snowflake.Query
+    url: "jdbc:snowflake://UMJGGTS-JU36093.snowflakecomputing.com"
+    username: PSET2_USER
+    privateKey: "{{ secret('SNOWFLAKE_PRIVATE_KEY') }}"
+    warehouse: PSET2_WH
+    database: CERVECERIA_DB
+    role: PSET2_ROLE
+    sql: SELECT CURRENT_USER(), CURRENT_ROLE(), CURRENT_WAREHOUSE()
+    fetchType: FETCH_ONE
+    

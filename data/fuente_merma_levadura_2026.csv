@@ -1,0 +1,248 @@
+﻿numero_documento,lote,fecha_coccion,fecha_cierre,estilo,cepa,tipo_levadura,cantidad_planificada,n_cocciones,mes,trimestre,dia_semana,generacion_levadura,levadura_nueva,levadura_origen,generacion_con_conflicto,con_microscopio,micro_viabilidad_pct,micro_celulas_viables_M_mL,micro_litros_levadura,micro_decision,micro_n_muestras,micro_origen_coincide,micro_gen_lodo,micro_dato_dudoso,cantidad_completada,dias_orden
+1,3001202610,2026-01-30,2026-02-13,American Lager,W34/70,lager,3510.0,2.0,1,1,4,2.0,False,FV7,True,False,,,,,,,,False,3450.0,14.0
+2,,2026-01-30,2026-02-24,Iguana,K-97,ale,3510.0,2.0,1,1,4,,,,,False,,,,,,,,False,3350.0,25.0
+33,,2026-01-31,2026-02-10,Condor,US-05,ale,1755.0,1.0,1,1,5,,,,,False,,,,,,,,False,1600.0,10.0
+34,0202202610,2026-02-02,2026-02-18,American Lager,W34/70,lager,3510.0,2.0,2,1,0,2.0,False,FV6,False,False,,,,,,,,False,3200.0,16.0
+35,0302202610,2026-02-03,2026-02-19,American Lager,W34/70,lager,7020.0,4.0,2,1,1,3.0,False,FV9,False,False,,,,,,,,False,7020.0,16.0
+36,0402202610,2026-02-04,2026-02-20,American Lager,W34/70,lager,7020.0,4.0,2,1,2,3.0,False,FV14,False,False,,,,,,,,False,6900.0,16.0
+37,0502202610,2026-02-05,2026-02-23,American Lager,W34/70,lager,7020.0,4.0,2,1,3,3.0,False,FV14,False,False,,,,,,,,False,6400.0,18.0
+38,0902202610,2026-02-09,2026-02-24,American Lager,W34/70,lager,7020.0,4.0,2,1,0,2.0,False,FV6,False,False,,,,,,,,False,6700.0,18.0
+42,0902202610,2026-02-09,2026-02-25,American Lager,W34/70,lager,3510.0,2.0,2,1,0,2.0,False,FV6,False,False,,,,,,,,False,3150.0,16.0
+57,0902202601,2026-02-09,2026-02-25,Tortuga,K-97,ale,1755.0,1.0,2,1,0,4.0,False,FV10,False,False,,,,,,,,False,1750.0,16.0
+58,1002202610,2026-02-10,2026-02-27,American Lager,W34/70,lager,7020.0,4.0,2,1,1,5.0,False,FV8,False,False,,,,,,,,False,6900.0,17.0
+67,1102202602,2026-02-11,2026-02-27,Red Llama,US-05,ale,1755.0,1.0,2,1,2,2.0,False,FV7,False,False,,,,,,,,False,1650.0,16.0
+66,1202202610,2026-02-12,2026-02-26,American Lager,W34/70,lager,5265.0,3.0,2,1,3,3.0,False,FV14,False,False,,,,,,,,False,4850.0,15.0
+69,1202202610,2026-02-12,2026-03-02,American Lager,W34/70,lager,7020.0,4.0,2,1,3,3.0,False,FV14,False,False,,,,,,,,False,6575.0,18.0
+72,1302202610,2026-02-13,2026-03-04,American Lager,W34/70,lager,3510.0,2.0,2,1,4,4.0,False,FV6,False,False,,,,,,,,False,3350.0,19.0
+73,1302202610,2026-02-13,2026-03-03,American Lager,W34/70,lager,3510.0,2.0,2,1,4,4.0,False,FV6,False,False,,,,,,,,False,3450.0,18.0
+82,1802202610,2026-02-18,2026-03-06,American Lager,W34/70,lager,3510.0,2.0,2,1,2,3.0,False,FV4,False,False,,,,,,,,False,3250.0,16.0
+83,,2026-02-18,2026-03-04,Iguana,K-97,ale,3510.0,2.0,2,1,2,,,,,False,,,,,,,,False,3250.0,14.0
+92,1902202610,2026-02-19,2026-03-06,American Lager,W34/70,lager,7020.0,4.0,2,1,3,4.0,False,FV10,False,False,,,,,,,,False,6450.0,15.0
+103,2002202610,2026-02-20,2026-03-09,American Lager,W34/70,lager,7020.0,4.0,2,1,4,4.0,False,FV11,False,False,,,,,,,,False,6850.0,17.0
+122,2302202610,2026-02-23,2026-03-11,American Lager,W34/70,lager,7020.0,4.0,2,1,0,4.0,False,FV12,False,False,,,,,,,,False,6750.0,16.0
+130,2402202610,2026-02-24,2026-03-12,American Lager,W34/70,lager,7020.0,4.0,2,1,1,4.0,False,FV13,False,False,,,,,,,,False,6650.0,16.0
+134,,2026-02-25,2026-03-12,American Lager,W34/70,lager,3510.0,2.0,2,1,2,,,,,False,,,,,,,,False,3450.0,15.0
+135,2502202603,2026-02-25,2026-03-12,Condor,US-05,ale,1755.0,1.0,2,1,2,4.0,False,FV1,False,False,,,,,,,,False,1650.0,15.0
+136,,2026-02-26,2026-03-12,Red Llama,US-05,ale,1755.0,1.0,2,1,3,,,,,False,,,,,,,,False,1600.0,14.0
+148,2602202610,2026-02-26,2026-03-16,American Lager,W34/70,lager,5265.0,3.0,2,1,3,4.0,False,FV9,False,False,,,,,,,,False,4700.0,18.0
+154,2702202610,2026-02-27,2026-03-19,American Lager,W34/70,lager,7020.0,4.0,2,1,4,4.0,False,FV8,False,False,,,,,,,,False,7250.0,20.0
+168,0203202610,2026-03-02,2026-03-19,American Lager,W34/70,lager,7020.0,4.0,3,1,0,0.0,True,,False,False,,,,,,,,False,6100.0,17.0
+176,0303202610,2026-03-03,2026-03-19,American Lager,W34/70,lager,3510.0,2.0,3,1,1,4.0,False,FV9,False,False,,,,,,,,False,3500.0,16.0
+181,0403202610,2026-03-04,2026-03-20,American Lager,W34/70,lager,3510.0,2.0,3,1,2,1.0,False,FV14,False,False,,,,,,,,False,3250.0,16.0
+191,0503202604,2026-03-05,2026-03-19,Iguana,K-97,ale,3510.0,2.0,3,1,3,1.0,False,FV14,False,False,,,,,,,,False,3100.0,14.0
+198,0603202610,2026-03-06,2026-03-24,American Lager,W34/70,lager,7020.0,4.0,3,1,4,1.0,False,FV14,False,False,,,,,,,,False,6180.0,18.0
+211,0903202610,2026-03-09,2026-03-26,American Lager,W34/70,lager,7020.0,4.0,3,1,0,1.0,False,FV14,False,False,,,,,,,,False,6350.0,17.0
+213,1003202610,2026-03-10,2026-03-26,American Lager,W34/70,lager,7020.0,4.0,3,1,1,1.0,False,FV14,False,False,,,,,,,,False,6800.0,16.0
+218,1103202610,2026-03-11,2026-03-31,American Lager,W34/70,lager,7020.0,4.0,3,1,2,1.0,False,FV14,False,False,,,,,,,,False,7020.0,20.0
+226,1203202606,2026-03-12,2026-04-02,Oktoberfest,W34/70,lager,7020.0,4.0,3,1,3,1.0,False,FV14,False,False,,,,,,,,False,6550.0,21.0
+237,1303202610,2026-03-13,2026-03-30,American Lager,W34/70,lager,3510.0,2.0,3,1,4,1.0,False,FV14,False,False,,,,,,,,False,3000.0,17.0
+240,1303202603,2026-03-13,2026-03-24,Condor,US-05,ale,1755.0,1.0,3,1,4,2.0,False,FV10,False,False,,,,,,,,False,1750.0,11.0
+241,1303202602,2026-03-13,2026-03-23,Red Llama,US-05,ale,1755.0,1.0,3,1,4,2.0,False,FV10,False,False,,,,,,,,False,1600.0,10.0
+246,1603202610,2026-03-16,2026-03-31,American Lager,W34/70,lager,5265.0,3.0,3,1,0,2.0,False,FV10,False,False,,,,,,,,False,4700.0,15.0
+250,1703202606,2026-03-17,2026-04-07,Oktoberfest,W34/70,lager,7020.0,4.0,3,1,1,2.0,False,FV10,False,False,,,,,,,,False,7000.0,21.0
+260,1803202606,2026-03-18,2026-04-14,Oktoberfest,W34/70,lager,7020.0,4.0,3,1,2,2.0,False,FV10,False,False,,,,,,,,False,6600.0,27.0
+269,1903202610,2026-03-19,2026-04-02,American Lager,W34/70,lager,3510.0,2.0,3,1,3,2.0,False,FV10,False,False,,,,,,,,False,3350.0,14.0
+270,1903202604,2026-03-19,2026-04-02,Iguana,K-97,ale,3510.0,2.0,3,1,3,2.0,False,FV10,False,False,,,,,,,,False,3300.0,14.0
+282,2003202610,2026-03-20,2026-04-03,American Lager,W34/70,lager,3510.0,2.0,3,1,4,2.0,False,FV6,False,False,,,,,,,,False,3150.0,14.0
+283,,2026-03-20,2026-03-24,Platonic,,,2000.0,1.1,3,1,4,,,,,False,,,,,,,,False,1965.0,4.0
+288,2303202602,2026-03-23,2026-04-16,Red Llama,US-05,ale,1755.0,1.0,3,1,0,2.0,False,FV6,False,False,,,,,,,,False,1700.0,24.0
+289,2303202601,2026-03-23,2026-04-16,Tortuga,K-97,ale,1755.0,1.0,3,1,0,2.0,False,FV6,False,False,,,,,,,,False,1750.0,24.0
+306,2403202610,2026-03-24,2026-04-10,American Lager,W34/70,lager,7020.0,4.0,3,1,1,2.0,False,FV6,False,False,,,,,,,,False,6150.0,17.0
+310,2503202606,2026-03-25,2026-04-21,Oktoberfest,W34/70,lager,7020.0,4.0,3,1,2,2.0,False,FV6,False,False,,,,,,,,False,6350.0,27.0
+314,2603202606,2026-03-26,2026-04-22,Oktoberfest,W34/70,lager,7020.0,4.0,3,1,3,3.0,False,FV10,True,False,,,,,,,,False,6450.0,27.0
+321,2703202610,2026-03-27,,American Lager,W34/70,lager,3510.0,2.0,3,1,4,3.0,False,FV3,False,False,,,,,,,,False,0.0,
+325,2703202610,2026-03-27,2026-04-08,American Lager,W34/70,lager,3510.0,2.0,3,1,4,3.0,False,FV3,False,False,,,,,,,,False,3450.0,12.0
+335,3003202604,2026-03-30,2026-04-20,Iguana,K-97,ale,5265.0,3.0,3,1,0,3.0,False,FV9,False,False,,,,,,,,False,4550.0,21.0
+345,3103202610,2026-03-31,2026-04-14,American Lager,W34/70,lager,7020.0,4.0,3,1,1,2.0,False,FV14,False,False,,,,,,,,False,6950.0,14.0
+352,0104202610,2026-04-01,2026-04-16,American Lager,W34/70,lager,7020.0,4.0,4,2,2,2.0,False,FV12,False,False,,,,,,,,False,6300.0,15.0
+355,0204202610,2026-04-02,2026-04-20,American Lager,W34/70,lager,3510.0,2.0,4,2,3,4.0,False,FV4,True,False,,,,,,,,False,3350.0,18.0
+356,0204202610,2026-04-02,2026-04-20,American Lager,W34/70,lager,3510.0,2.0,4,2,3,4.0,False,FV4,True,False,,,,,,,,False,3500.0,18.0
+367,0304202610,2026-04-03,2026-04-23,American Lager,W34/70,lager,3510.0,2.0,4,2,4,2.0,False,FV3,True,False,,,,,,,,False,3400.0,20.0
+377,0604202606,2026-04-06,2026-05-04,Oktoberfest,W34/70,lager,7020.0,4.0,4,2,0,3.0,False,FV2,False,False,,,,,,,,False,6600.0,28.0
+392,0804202610,2026-04-08,2026-05-08,American Lager,W34/70,lager,3510.0,2.0,4,2,2,3.0,False,FV3,False,False,,,,,,,,False,3100.0,30.0
+393,0904202610,2026-04-09,2026-04-24,American Lager,W34/70,lager,3510.0,2.0,4,2,3,3.0,False,FV13,False,False,,,,,,,,False,3550.0,15.0
+398,,2026-04-10,2026-04-28,American Lager,W34/70,lager,3510.0,2.0,4,2,4,,,,,False,,,,,,,,False,2769.0,18.0
+408,1304202610,2026-04-13,2026-04-28,American Lager,W34/70,lager,7020.0,4.0,4,2,0,3.0,False,FV14,False,False,,,,,,,,False,6000.0,15.0
+409,1404202610,2026-04-14,2026-04-29,American Lager,W34/70,lager,7020.0,4.0,4,2,1,4.0,False,FV13,False,False,,,,,,,,False,6000.0,15.0
+415,1504202610,2026-04-15,2026-04-30,American Lager,W34/70,lager,7020.0,4.0,4,2,2,3.0,False,FV12,False,False,,,,,,,,False,6000.0,15.0
+422,1604202603,2026-04-16,2026-05-04,Condor,US-05,ale,1755.0,1.0,4,2,3,3.0,False,FV2,False,False,,,,,,,,False,1700.0,18.0
+423,1604202607,2026-04-16,2026-05-05,Honey Bock,W34/70,lager,1550.0,0.9,4,2,3,0.0,True,FV1,False,False,,,,,,,,False,1250.0,19.0
+433,1704202610,2026-04-17,2026-05-04,American Lager,W34/70,lager,5265.0,3.0,4,2,4,4.0,False,FV7,False,False,,,,,,,,False,4500.0,17.0
+442,2004202610,2026-04-20,2026-05-05,American Lager,W34/70,lager,3510.0,2.0,4,2,0,3.0,False,FV11,False,False,,,,,,,,False,3100.0,15.0
+443,2004202610,2026-04-20,2026-05-06,American Lager,W34/70,lager,3510.0,2.0,4,2,0,3.0,False,FV11,False,False,,,,,,,,False,3100.0,16.0
+446,2104202610,2026-04-21,2026-05-08,American Lager,W34/70,lager,7020.0,4.0,4,2,1,4.0,False,FV14,False,False,,,,,,,,False,6100.0,17.0
+453,2204202610,2026-04-22,2026-05-06,American Lager,W34/70,lager,7020.0,4.0,4,2,2,4.0,False,FV12,False,False,,,,,,,,False,6100.0,14.0
+463,2504202610,2026-04-25,2026-05-07,American Lager,W34/70,lager,3510.0,2.0,4,2,5,5.0,False,FV11,False,False,,,,,,,,False,3100.0,12.0
+480,2704202610,2026-04-27,2026-05-12,American Lager,W34/70,lager,7020.0,4.0,4,2,0,4.0,False,FV14,False,False,,,,,,,,False,6200.0,15.0
+486,2804202610,2026-04-28,2026-05-15,American Lager,W34/70,lager,7020.0,4.0,4,2,1,4.0,False,FV14,False,False,,,,,,,,False,6550.0,17.0
+492,2904202610,2026-04-29,2026-05-18,American Lager,W34/70,lager,7020.0,4.0,4,2,2,4.0,False,FV12,False,False,,,,,,,,False,5950.0,19.0
+502,3004202606,2026-04-30,2026-05-27,Oktoberfest,W34/70,lager,7020.0,4.0,4,2,3,4.0,False,FV12,False,False,,,,,,,,False,6600.0,27.0
+497,0105202610,2026-05-01,2026-05-13,American Lager,W34/70,lager,7020.0,4.0,5,2,4,4.0,False,FV8,False,False,,,,,,,,False,6250.0,12.0
+508,0405202610,2026-05-04,2026-05-14,American Lager,W34/70,lager,5265.0,3.0,5,2,0,1.0,False,FV1,False,False,,,,,,,,False,4700.0,10.0
+509,0405202602,2026-05-04,2026-05-14,Red Llama,US-05,ale,1755.0,1.0,5,2,0,1.0,False,FV1,False,False,,,,,,,,False,1550.0,10.0
+511,0505202610,2026-05-05,2026-05-21,American Lager,W34/70,lager,3510.0,2.0,5,2,1,5.0,False,FV6,False,False,,,,,,,,False,3450.0,16.0
+520,0505202609,2026-05-05,2026-05-23,Belgian Tripel,BE-256,ale,1550.0,0.9,5,2,1,0.0,True,FV1,False,False,,,,,,,,False,1200.0,18.0
+522,0505202610,2026-05-05,2026-05-20,American Lager,W34/70,lager,7020.0,4.0,5,2,1,5.0,False,FV6,False,False,,,,,,,,False,6800.0,14.0
+533,0705202610,2026-05-07,2026-05-21,American Lager,W34/70,lager,3510.0,2.0,5,2,3,0.0,True,FV1,False,False,,,,,,,,False,3200.0,14.0
+532,,2026-05-08,2026-05-19,American Lager,W34/70,lager,3510.0,2.0,5,2,4,,,,,False,,,,,,,,False,3200.0,11.0
+560,,2026-05-08,2026-05-16,American Lager,W34/70,lager,3510.0,2.0,5,2,4,,,,,False,,,,,,,,False,3100.0,8.0
+538,1105202610,2026-05-11,2026-05-22,American Lager,W34/70,lager,7020.0,4.0,5,2,0,0.0,True,FV11,False,False,,,,,,,,False,6200.0,11.0
+566,1205202610,2026-05-12,2026-05-26,American Lager,W34/70,lager,7020.0,4.0,5,2,1,0.0,True,,False,False,,,,,,,,False,6450.0,14.0
+576,1305202610,2026-05-13,2026-05-26,American Lager,W34/70,lager,7020.0,4.0,5,2,2,1.0,False,FV3,False,False,,,,,,,,False,6450.0,13.0
+587,1405202603,2026-05-14,2026-05-22,Condor,US-05,ale,1755.0,1.0,5,2,3,2.0,False,FV2,False,False,,,,,,,,False,1600.0,8.0
+583,1405202610,2026-05-14,2026-05-29,American Lager,W34/70,lager,5265.0,3.0,5,2,3,1.0,False,FV3,False,False,,,,,,,,False,4750.0,15.0
+586,1405202603,2026-05-14,,Condor,US-05,ale,1755.0,1.0,5,2,3,2.0,False,FV2,False,False,,,,,,,,False,0.0,
+588,1505202610,2026-05-15,2026-05-29,American Lager,W34/70,lager,7020.0,4.0,5,2,4,1.0,False,FV14,False,False,,,,,,,,False,6750.0,14.0
+598,1605202610,2026-05-16,2026-06-02,American Lager,W34/70,lager,3510.0,2.0,5,2,5,1.0,False,FV3,False,False,,,,,,,,False,3300.0,17.0
+602,1805202610,2026-05-18,2026-06-02,American Lager,W34/70,lager,7020.0,4.0,5,2,0,1.0,False,FV10,False,False,,,,,,,,False,6350.0,15.0
+608,1905202610,2026-05-19,2026-06-03,American Lager,W34/70,lager,3510.0,2.0,5,2,1,1.0,False,FV10,False,False,,,,,,,,False,3300.0,15.0
+609,2005202610,2026-05-20,2026-06-04,American Lager,W34/70,lager,7020.0,4.0,5,2,2,1.0,False,FV11,False,False,,,,,,,,False,6950.0,15.0
+622,2105202610,2026-05-21,2026-06-08,American Lager,W34/70,lager,3510.0,2.0,5,2,3,1.0,False,FV11,False,False,,,,,,,,False,3025.0,18.0
+623,,2026-05-21,2026-06-03,Iguana,K-97,ale,3510.0,2.0,5,2,3,,,,,False,,,,,,,,False,3250.0,13.0
+634,2205202610,2026-05-22,2026-06-08,American Lager,W34/70,lager,7020.0,4.0,5,2,4,1.0,False,FV10,False,False,,,,,,,,False,6825.0,17.0
+643,2305202609,2026-05-23,2026-06-11,Belgian Tripel,BE-256,ale,1550.0,0.9,5,2,5,0.0,True,,False,False,,,,,,,,False,1075.0,19.0
+644,,2026-05-23,2026-06-03,Honey Bock,W34/70,lager,1550.0,0.9,5,2,5,,,,,False,,,,,,,,False,1200.0,11.0
+647,2505202610,2026-05-25,2026-06-09,American Lager,W34/70,lager,7020.0,4.0,5,2,0,2.0,False,FV14,False,False,,,,,,,,False,6800.0,15.0
+652,2605202610,2026-05-26,2026-06-11,American Lager,W34/70,lager,7020.0,4.0,5,2,1,2.0,False,FV13,False,False,,,,,,,,False,6900.0,16.0
+663,2705202610,2026-05-27,2026-06-12,American Lager,W34/70,lager,7020.0,4.0,5,2,2,2.0,False,FV13,False,False,,,,,,,,False,7000.0,16.0
+680,2805202610,2026-05-28,2026-06-16,American Lager,W34/70,lager,7020.0,4.0,5,2,3,2.0,False,FV13,False,False,,,,,,,,False,7000.0,18.0
+673,2805202610,2026-05-28,2026-06-15,American Lager,W34/70,lager,5265.0,3.0,5,2,3,2.0,False,FV13,False,False,,,,,,,,False,5200.0,18.0
+697,,2026-06-01,2026-06-18,American Lager,W34/70,lager,3510.0,2.0,6,2,0,,,,,False,,,,,,,,False,3300.0,17.0
+701,0206202610,2026-06-02,2026-06-17,American Lager,W34/70,lager,7020.0,4.0,6,2,1,2.0,False,FV11,False,False,,,,,,,,False,6950.0,15.0
+709,,2026-06-03,2026-06-16,Iguana,K-97,ale,3510.0,2.0,6,2,2,,,,,False,,,,,,,,False,3200.0,13.0
+710,,2026-06-03,2026-06-13,Red Llama,US-05,ale,3510.0,2.0,6,2,2,,,,,False,,,,,,,,False,3350.0,10.0
+716,0406202610,2026-06-04,2026-06-18,American Lager,W34/70,lager,7020.0,4.0,6,2,3,2.0,False,FV7,False,False,,,,,,,,False,7000.0,14.0
+719,0506202603,2026-06-05,2026-06-23,Condor,US-05,ale,3510.0,2.0,6,2,4,0.0,True,,False,False,,,,,,,,False,3510.0,18.0
+720,0506202601,2026-06-05,2026-06-19,Tortuga,K-97,ale,1755.0,1.0,6,2,4,3.0,False,FV5,False,False,,,,,,,,False,1600.0,14.0
+737,0806202610,2026-06-08,2026-06-29,American Lager,W34/70,lager,7020.0,4.0,6,2,0,1.0,False,FV3,False,False,,,,,,,,False,6600.0,21.0
+745,0906202610,2026-06-09,2026-06-19,American Lager,W34/70,lager,7020.0,4.0,6,2,1,0.0,True,,False,False,,,,,,,,False,6400.0,10.0
+752,,2026-06-10,2026-06-12,Platonic,,,2000.0,1.1,6,2,2,,,,,False,,,,,,,,False,1950.0,2.0
+753,1006202610,2026-06-10,2026-07-02,American Lager,W34/70,lager,1755.0,1.0,6,2,2,0.0,True,FV1,False,False,,,,,,,,False,1450.0,22.0
+758,1106202610,2026-06-11,2026-06-23,American Lager,W34/70,lager,7020.0,4.0,6,2,3,0.0,True,,False,False,,,,,,,,False,6500.0,12.0
+760,1206202610,2026-06-12,2026-06-24,American Lager,W34/70,lager,7020.0,4.0,6,2,4,1.0,False,FV3,False,False,,,,,,,,False,6350.0,12.0
+767,1306202610,2026-06-13,2026-06-25,American Lager,W34/70,lager,3510.0,2.0,6,2,5,1.0,False,FV10,False,False,,,,,,,,False,3500.0,12.0
+768,,2026-06-13,,Honey Bock,W34/70,lager,3100.0,1.8,6,2,5,,,,,False,,,,,,,,False,0.0,
+780,1506202610,2026-06-15,2026-06-25,American Lager,W34/70,lager,3510.0,2.0,6,2,0,2.0,False,FV5,False,False,,,,,,,,False,3300.0,10.0
+783,1606202604,2026-06-16,2026-06-26,Iguana,K-97,ale,5265.0,3.0,6,2,1,0.0,True,FV9,False,False,,,,,,,,False,4400.0,10.0
+790,1706202610,2026-06-17,2026-06-29,American Lager,W34/70,lager,7020.0,4.0,6,2,2,1.0,False,FV14,False,False,,,,,,,,False,6350.0,12.0
+800,1806202610,2026-06-18,2026-06-30,American Lager,W34/70,lager,7020.0,4.0,6,2,3,1.0,False,FV8,False,False,,,,,,,,False,6100.0,12.0
+811,1906202610,2026-06-19,2026-07-01,American Lager,W34/70,lager,7020.0,4.0,6,2,4,1.0,False,FV8,False,False,,,,,,,,False,6500.0,12.0
+820,1906202610,2026-06-19,2026-07-02,American Lager,W34/70,lager,3510.0,2.0,6,2,4,1.0,False,FV8,False,False,,,,,,,,False,3300.0,12.0
+832,2206202602,2026-06-22,2026-07-03,Red Llama,US-05,ale,1755.0,1.0,6,2,0,1.0,False,FV7,False,False,,,,,,,,False,1500.0,11.0
+833,,2026-06-22,2026-07-06,American Lager,W34/70,lager,3510.0,2.0,6,2,0,,,,,False,,,,,,,,False,3300.0,14.0
+831,,2026-06-23,2026-07-07,American Lager,W34/70,lager,7020.0,4.0,6,2,1,,,,,False,,,,,,,,False,6500.0,14.0
+847,,2026-06-24,2026-07-08,American Lager,W34/70,lager,7020.0,4.0,6,2,2,,,,,False,,,,,,,,False,6800.0,14.0
+857,,2026-06-25,2026-07-09,American Lager,W34/70,lager,7020.0,4.0,6,2,3,,,,,False,,,,,,,,False,6900.0,14.0
+862,2606202610,2026-06-26,2026-07-10,American Lager,W34/70,lager,3510.0,2.0,6,2,4,2.0,False,FV14,False,False,,,,,,,,False,3275.0,14.0
+863,2606202610,2026-06-26,2026-07-10,American Lager,W34/70,lager,3510.0,2.0,6,2,4,2.0,False,FV14,False,False,,,,,,,,False,3275.0,14.0
+879,2706202604,2026-06-27,2026-07-13,Iguana,K-97,ale,5265.0,3.0,6,2,5,3.0,False,FV9,False,False,,,,,,,,False,4900.0,16.0
+899,2906202610,2026-06-29,2026-07-16,American Lager,W34/70,lager,7020.0,4.0,6,2,0,2.0,False,FV13,False,False,,,,,,,,False,6700.0,16.0
+898,2906202610,2026-06-29,2026-07-14,American Lager,W34/70,lager,7020.0,4.0,6,2,0,2.0,False,FV13,False,False,,,,,,,,False,6600.0,15.0
+918,0107202610,2026-07-01,2026-07-16,American Lager,W34/70,lager,7020.0,4.0,7,3,2,0.0,True,FV3,False,False,,,,,,,,False,6650.0,15.0
+927,0207202610,2026-07-02,2026-07-17,American Lager,W34/70,lager,7020.0,4.0,7,3,3,0.0,True,FV6,False,False,,,,,,,,False,6550.0,15.0
+934,0307202610,2026-07-03,2026-07-21,American Lager,W34/70,lager,3510.0,2.0,7,3,4,0.0,True,FV4,False,False,,,,,,,,False,3000.0,18.0
+935,0307202601,2026-07-03,2026-07-14,Tortuga,K-97,ale,1755.0,1.0,7,3,4,0.0,True,FV1,False,False,,,,,,,,False,1650.0,11.0
+936,0307202603,2026-07-03,2026-07-17,Condor,US-05,ale,1755.0,1.0,7,3,4,0.0,True,FV2,False,False,,,,,,,,False,1700.0,14.0
+941,0607202607,2026-07-06,2026-07-21,Honey Bock,W34/70,lager,3100.0,1.8,7,3,0,0.0,True,,False,False,,,,,,,,False,2500.0,15.0
+947,0707202610,2026-07-07,2026-07-22,American Lager,W34/70,lager,7020.0,4.0,7,3,1,2.0,False,FV8,False,False,,,,,,,,False,6800.0,15.0
+962,0807202610,2026-07-08,2026-07-23,American Lager,W34/70,lager,7020.0,4.0,7,3,2,1.0,False,FV9,False,False,,,,,,,,False,6750.0,15.0
+972,0907202610,2026-07-09,2026-07-24,American Lager,W34/70,lager,7020.0,4.0,7,3,3,1.0,False,FV13,False,False,,,,,,,,False,6500.0,15.0
+981,1007202610,2026-07-10,2026-07-28,American Lager,W34/70,lager,3510.0,2.0,7,3,4,1.0,False,FV6,False,False,,,,,,,,False,3150.0,18.0
+982,1007202610,2026-07-10,2026-07-27,American Lager,W34/70,lager,3510.0,2.0,7,3,4,1.0,False,FV6,False,False,,,,,,,,False,3500.0,17.0
+983,1307202604,2026-07-13,2026-07-28,Iguana,K-97,ale,5265.0,3.0,7,3,0,1.0,False,FV9,False,False,,,,,,,,False,4600.0,15.0
+994,1307202602,2026-07-13,2026-07-22,Red Llama,US-05,ale,1755.0,1.0,7,3,0,1.0,False,FV2,False,False,,,,,,,,False,1600.0,9.0
+997,1407202610,2026-07-14,2026-07-29,American Lager,W34/70,lager,7020.0,4.0,7,3,1,1.0,False,FV13,False,False,,,,,,,,False,6600.0,15.0
+998,1507202610,2026-07-15,2026-07-30,American Lager,W34/70,lager,7020.0,4.0,7,3,2,1.0,False,FV13,False,False,,,,,,,,False,6800.0,15.0
+1017,1607202610,2026-07-16,2026-08-03,American Lager,W34/70,lager,7020.0,4.0,7,3,3,1.0,False,FV13,False,False,,,,,,,,False,6550.0,18.0
+1026,1707202610,2026-07-17,2026-08-04,American Lager,W34/70,lager,7020.0,4.0,7,3,4,1.0,False,FV4,False,False,,,,,,,,False,6950.0,18.0
+1032,2007202610,2026-07-20,2026-08-03,American Lager,W34/70,lager,3510.0,2.0,7,3,0,2.0,False,FV8,False,False,,,,,,,,False,3300.0,14.0
+1038,2007202602,2026-07-20,2026-08-03,Red Llama,US-05,ale,1755.0,1.0,7,3,0,1.0,False,FV2,False,False,,,,,,,,False,1550.0,14.0
+1043,2107202610,2026-07-21,2026-08-06,American Lager,W34/70,lager,3510.0,2.0,7,3,1,2.0,False,FV8,False,False,,,,,,,,False,3500.0,16.0
+1044,,2026-07-21,2026-08-06,Condor,US-05,ale,1755.0,1.0,7,3,1,,,,,False,,,,,,,,False,1600.0,16.0
+1063,2207202610,2026-07-22,2026-08-07,American Lager,W34/70,lager,7020.0,4.0,7,3,2,2.0,False,FV12,False,False,,,,,,,,False,6500.0,16.0
+1064,2307202610,2026-07-23,2026-08-07,American Lager,W34/70,lager,7020.0,4.0,7,3,3,2.0,False,FV5,False,False,,,,,,,,False,6650.0,15.0
+1073,2407202606,2026-07-24,2026-08-14,Oktoberfest,W34/70,lager,7020.0,4.0,7,3,4,2.0,False,FV14,False,False,,,,,,,,False,6650.0,21.0
+1092,2707202610,2026-07-27,2026-08-07,American Lager,W34/70,lager,3510.0,2.0,7,3,0,2.0,False,FV13,False,False,,,,,,,,False,3400.0,11.0
+1093,2707202610,2026-07-27,2026-08-11,American Lager,W34/70,lager,3510.0,2.0,7,3,0,2.0,False,FV13,False,False,,,,,,,,False,3400.0,15.0
+1096,,2026-07-28,2026-08-13,Iguana,K-97,ale,5265.0,3.0,7,3,1,,,,,False,,,,,,,,False,5200.0,16.0
+1101,2907202606,2026-07-29,2026-08-17,Oktoberfest,W34/70,lager,7020.0,4.0,7,3,2,0.0,True,,False,False,,,,,,,,False,6350.0,19.0
+1113,3007202606,2026-07-30,2026-08-21,Oktoberfest,W34/70,lager,7020.0,4.0,7,3,3,2.0,False,FV12,False,False,,,,,,,,False,7000.0,22.0
+1123,3107202610,2026-07-31,2026-08-19,American Lager,W34/70,lager,7020.0,4.0,7,3,4,0.0,True,,False,False,,,,,,,,False,6100.0,19.0
+1136,0308202610,2026-08-03,2026-08-19,American Lager,W34/70,lager,3510.0,2.0,8,3,0,2.0,False,FV6,False,False,,,,,,,,False,3100.0,16.0
+1137,0308202609,2026-08-03,2026-08-26,Belgian Tripel,BE-256,ale,1550.0,0.9,8,3,0,0.0,True,,False,False,,,,,,,,False,1300.0,23.0
+1138,0408202606,2026-08-04,2026-08-27,Oktoberfest,W34/70,lager,7020.0,4.0,8,3,1,1.0,False,FV11,False,False,,,,,,,,False,6650.0,23.0
+1148,0508202610,2026-08-05,2026-08-24,American Lager,W34/70,lager,3510.0,2.0,8,3,2,1.0,False,FV11,False,False,,,,,,,,False,3500.0,19.0
+1149,,2026-08-05,2026-08-20,Red Llama,US-05,ale,1755.0,1.0,8,3,2,,,,,False,,,,,,,,False,1700.0,15.0
+1154,0608202606,2026-08-06,2026-08-28,Oktoberfest,W34/70,lager,7020.0,4.0,8,3,3,1.0,False,FV11,False,False,,,,,,,,False,7000.0,22.0
+1164,,2026-08-07,2026-08-21,American Lager,W34/70,lager,7020.0,4.0,8,3,4,,,,,False,,,,,,,,False,6750.0,14.0
+1182,1108202610,2026-08-11,2026-08-26,American Lager,W34/70,lager,3510.0,2.0,8,3,1,2.0,False,FV6,False,True,66.48,529.0,,Desechar lodo,1.0,True,2.0,False,3050.0,15.0
+1185,1108202605,2026-08-11,2026-08-25,Lagarto,W34/70,lager,3510.0,2.0,8,3,1,2.0,False,FV6,False,True,,,,,,,,False,3500.0,14.0
+1186,1208202604,2026-08-12,2026-08-27,Iguana,K-97,ale,5265.0,3.0,8,3,2,0.0,True,,False,True,,,,,,,,False,4900.0,15.0
+1203,1308202606,2026-08-13,2026-09-03,Oktoberfest,W34/70,lager,7020.0,4.0,8,3,3,2.0,False,FV6,False,True,69.8,610.0,,Desechar lodo,1.0,True,2.0,False,6600.0,21.0
+1212,1408202610,2026-08-14,2026-08-31,American Lager,W34/70,lager,7020.0,4.0,8,3,4,1.0,False,FV11,False,True,93.56,578.0,187.63,Reutilizar,1.0,True,1.0,False,6750.0,17.0
+1219,1708202610,2026-08-17,2026-09-01,American Lager,W34/70,lager,7020.0,4.0,8,3,0,2.0,False,FV10,False,True,92.42,1109.0,82.52,Reutilizar,1.0,False,1.0,False,6200.0,15.0
+1228,1808202610,2026-08-18,2026-09-04,American Lager,W34/70,lager,7020.0,4.0,8,3,1,0.0,True,,False,True,93.65,996.0,91.88,Reutilizar,1.0,False,1.0,False,6350.0,17.0
+1239,1908202610,2026-08-19,2026-09-02,American Lager,W34/70,lager,3510.0,2.0,8,3,2,2.0,False,FV7,False,True,93.69,787.0,116.28,Reutilizar,1.0,False,1.0,False,3400.0,14.0
+1240,1908202601,2026-08-19,2026-09-02,Tortuga,K-97,ale,1755.0,1.0,8,3,2,1.0,False,FV4,False,True,94.87,629.0,148.09,Reutilizar,1.0,False,0.0,False,1600.0,14.0
+1252,2008202610,2026-08-20,2026-09-11,American Lager,W34/70,lager,7020.0,4.0,8,3,3,2.0,False,FV11,False,True,95.61,1046.0,87.49,Reutilizar,1.0,True,1.0,False,6550.0,22.0
+1257,2108202610,2026-08-21,2026-09-07,American Lager,W34/70,lager,7020.0,4.0,8,3,4,2.0,False,FV11,False,True,,,,,,,,False,6250.0,17.0
+1259,2408202610,2026-08-24,2026-09-08,American Lager,W34/70,lager,3510.0,2.0,8,3,0,1.0,False,FV15,False,True,97.1,1073.0,85.29,Reutilizar,1.0,True,0.0,False,6300.0,15.0
+1266,2508202607,2026-08-25,2026-09-11,Honey Bock,W34/70,lager,3100.0,1.8,8,3,1,1.0,False,FV15,False,True,97.48,1236.0,125.16,Reutilizar,1.0,True,0.0,False,2500.0,17.0
+1267,2508202610,2026-08-25,2026-09-14,American Lager,W34/70,lager,3510.0,2.0,8,3,1,1.0,False,FV15,False,True,97.48,1236.0,74.04,Reutilizar,1.0,True,0.0,False,3250.0,20.0
+1279,2608202604,2026-08-26,2026-09-10,Iguana,K-97,ale,5265.0,3.0,8,3,2,1.0,False,FV4,False,True,97.08,931.0,98.3,Reutilizar,1.0,False,0.0,False,4725.0,15.0
+1280,2608202603,2026-08-26,2026-09-04,Condor,US-05,ale,1755.0,1.0,8,3,2,0.0,True,,False,True,,,,,,,,False,1450.0,9.0
+1288,2708202610,2026-08-27,2026-09-16,American Lager,W34/70,lager,7020.0,4.0,8,3,3,2.0,False,FV11,False,True,97.85,955.0,114.99,Reutilizar,1.0,True,1.0,False,6200.0,20.0
+1299,2808202610,2026-08-28,2026-09-21,American Lager,W34/70,lager,7020.0,4.0,8,3,4,0.0,True,FV10,False,True,65.0,290.0,,Desechar lodo,3.0,False,2.0,False,6550.0,24.0
+1307,,2026-08-29,2026-09-01,Platonic,,,1500.0,0.9,8,3,5,,,,,True,,,,,,,,False,1500.0,3.0
+1306,3108202610,2026-08-31,2026-09-25,American Lager,W34/70,lager,7020.0,4.0,8,3,0,1.0,False,FV15,False,True,92.86,1456.0,75.42,Reutilizar,1.0,True,0.0,False,6100.0,25.0
+1317,0109202610,2026-09-01,2026-09-28,American Lager,W34/70,lager,7020.0,4.0,9,3,1,1.0,False,FV10,False,True,92.05,1042.0,107.28,Reutilizar,1.0,True,0.0,False,6425.0,27.0
+1321,0209202610,2026-09-02,2026-09-18,American Lager,W34/70,lager,3510.0,2.0,9,3,2,1.0,False,FV10,False,True,95.05,1035.0,105.0,Reutilizar,1.0,True,0.0,False,3350.0,16.0
+1322,,2026-09-02,2026-09-17,Red Llama,US-05,ale,1755.0,1.0,9,3,2,,,,,True,90.3,1080.0,26.33,Reutilizar,1.0,False,0.0,False,1550.0,15.0
+1329,0309202610,2026-09-03,2026-09-29,American Lager,W34/70,lager,7020.0,4.0,9,3,3,1.0,False,FV10,False,True,91.53,1772.0,105.14,Reutilizar,1.0,True,0.0,False,6000.0,26.0
+1335,0409202610,2026-09-04,2026-09-30,American Lager,W34/70,lager,7020.0,4.0,9,3,4,1.0,False,FV10,False,True,,,,,,,,False,6450.0,26.0
+1342,0709202610,2026-09-07,2026-10-01,American Lager,W34/70,lager,7020.0,4.0,9,3,0,2.0,False,FV5,False,True,86.68,1184.0,173.09,Reutilizar,2.0,False,1.0,False,6600.0,24.0
+1347,0809202603,2026-09-08,2026-09-22,Condor,US-05,ale,3510.0,2.0,9,3,1,2.0,False,FV1,False,True,85.29,1160.0,98.84,Reutilizar,1.0,True,1.0,False,3000.0,15.0
+1346,0809202610,2026-09-08,2026-09-29,American Lager,W34/70,lager,1755.0,1.0,9,3,1,2.0,False,FV11,False,True,89.78,966.0,159.11,Reutilizar,2.0,True,1.0,False,1550.0,21.0
+1351,0909202604,2026-09-09,2026-10-02,Iguana,K-97,ale,5265.0,3.0,9,3,2,0.0,True,FV9,False,True,9.59,28.0,,Desechar lodo,1.0,True,1.0,False,4500.0,23.0
+1374,1009202610,2026-09-10,,American Lager,W34/70,lager,3510.0,2.0,9,3,3,2.0,False,FV11,False,True,89.11,1146.0,90.48,Reutilizar,1.0,True,1.0,False,0.0,
+1377,1009202610,2026-09-10,2026-10-06,American Lager,W34/70,lager,3510.0,2.0,9,3,3,2.0,False,FV11,False,True,86.89,1166.0,186.97,Reutilizar,1.0,False,1.0,False,3400.0,26.0
+1378,1109202610,2026-09-11,2026-10-06,American Lager,W34/70,lager,7020.0,4.0,9,3,4,2.0,False,FV10,False,True,,,,,,,,False,6600.0,25.0
+1386,1409202610,2026-09-14,2026-10-06,American Lager,W34/70,lager,3510.0,2.0,9,3,0,0.0,True,FV5,False,True,,,,,,,,False,3300.0,22.0
+1390,1509202610,2026-09-15,2026-10-07,American Lager,W34/70,lager,7020.0,4.0,9,3,1,0.0,True,FV6,False,True,,,,,,,,False,6500.0,22.0
+1396,,2026-09-17,2026-10-05,Tortuga,K-97,ale,1755.0,1.0,9,3,3,,,,,True,63.57,336.0,179.36,Desechar lodo,1.0,False,0.0,False,1700.0,18.0
+1397,1709202610,2026-09-17,2026-10-15,American Lager,W34/70,lager,3510.0,2.0,9,3,3,2.0,False,FV12,False,True,93.19,29.38,37.1,Reutilizar,1.0,True,1.0,True,3350.0,28.0
+1402,1809202610,2026-09-18,2026-10-15,American Lager,W34/70,lager,7020.0,4.0,9,3,4,0.0,True,FV10,False,True,97.63,1732.0,125.87,Reutilizar,1.0,False,0.0,False,6550.0,27.0
+1409,2209202607,2026-09-22,2026-10-15,Honey Bock,W34/70,lager,3100.0,1.8,9,3,1,1.0,False,FV5,False,True,90.45,1420.0,114.99,Reutilizar,1.0,True,0.0,False,2700.0,24.0
+1431,,2026-09-23,2026-09-25,Turbo + Guarana Tropical,,,1000.0,0.6,9,3,2,,,,,True,,,,,,,,False,950.0,2.0
+1429,,2026-09-23,,Turbo + Guarana Tropical,,,1000.0,0.6,9,3,2,,,,,True,,,,,,,,False,0.0,
+1430,,2026-09-23,,Turbo + Guarana Tropical,,,1000.0,0.6,9,3,2,,,,,True,,,,,,,,False,0.0,
+1432,2409202610,2026-09-24,2026-10-15,American Lager,W34/70,lager,7020.0,4.0,9,3,3,1.0,False,FV5,False,True,83.18,915.0,203.0,Aumentar pitching,1.0,True,0.0,False,6500.0,21.0
+1438,2509202610,2026-09-25,2026-10-15,American Lager,W34/70,lager,7020.0,4.0,9,3,4,1.0,False,FV6,False,True,92.26,775.0,155.5,Reutilizar,1.0,True,0.0,False,6550.0,20.0
+1456,2809202602,2026-09-28,2026-10-15,Red Llama,US-05,ale,1755.0,1.0,9,3,0,0.0,True,FV2,False,True,,,,,,,,False,1550.0,17.0
+1457,2909202610,2026-09-29,2026-10-15,American Lager,W34/70,lager,7020.0,4.0,9,3,1,2.0,False,FV8,False,True,89.31,3175.0,60.81,Reutilizar,1.0,False,1.0,True,6200.0,16.0
+1463,3009202610,2026-09-30,2026-10-18,American Lager,W34/70,lager,7020.0,4.0,9,3,2,0.0,True,FV15,False,True,,,,,,,,False,6800.0,18.0
+1473,0110202610,2026-10-01,2026-10-19,American Lager,W34/70,lager,7020.0,4.0,10,4,3,0.0,True,FV8,False,True,,,,,,,,False,6500.0,18.0
+1482,0210202603,2026-10-02,2026-10-15,Condor,US-05,ale,1755.0,1.0,10,4,4,1.0,False,FV2,False,True,,,,,,,,False,1650.0,13.0
+1478,0210202604,2026-10-02,,Iguana,K-97,ale,5265.0,3.0,10,4,4,1.0,False,FV9,False,True,,,,,,,,False,0.0,
+1483,,2026-10-05,2026-10-20,American Lager,W34/70,lager,7020.0,4.0,10,4,0,,,,,True,92.15,1115.0,150.38,Reutilizar,1.0,False,0.0,False,6500.0,15.0
+1495,,2026-10-06,2026-10-21,American Lager,W34/70,lager,3510.0,2.0,10,4,1,,,,,True,94.12,1120.0,74.85,Reutilizar,1.0,False,0.0,False,3200.0,15.0
+1496,,2026-10-06,2026-10-21,American Lager,W34/70,lager,3510.0,2.0,10,4,1,,,,,True,93.05,1405.0,119.34,Reutilizar,1.0,False,1.0,False,3150.0,15.0
+1501,0710202610,2026-10-07,2026-10-25,American Lager,W34/70,lager,7020.0,4.0,10,4,2,1.0,False,FV10,False,True,98.41,1674.0,133.35,Reutilizar,1.0,False,0.0,False,6750.0,18.0
+1509,0810202610,2026-10-08,2026-10-26,American Lager,W34/70,lager,7020.0,4.0,10,4,3,2.0,False,FV11,False,True,,,,,,,,False,6600.0,18.0
+1519,0910202610,2026-10-09,2026-10-26,American Lager,W34/70,lager,3510.0,2.0,10,4,4,0.0,True,FV4,False,True,,,,,,,,False,3400.0,17.0
+1516,1210202610,2026-10-12,2026-10-27,American Lager,W34/70,lager,7020.0,4.0,10,4,0,1.0,False,FV15,False,True,98.49,1569.0,142.49,Reutilizar,1.0,True,0.0,False,6200.0,15.0
+1518,1310202610,2026-10-13,2026-10-27,American Lager,W34/70,lager,3510.0,2.0,10,4,1,0.0,True,FV7,False,True,,,,,,,,False,3400.0,14.0
+1521,,2026-10-13,,Lagarto,W34/70,lager,1755.0,1.0,10,4,1,,,,,True,,,,,,,,False,0.0,
+1517,1410202610,2026-10-14,,American Lager,W34/70,lager,5265.0,3.0,10,4,2,2.0,False,FV12,False,True,,,,,,,,False,0.0,
+1520,1710202610,2026-10-17,,American Lager,W34/70,lager,7020.0,4.0,10,4,5,1.0,False,FV8,False,True,,,,,,,,False,0.0,
+1552,1810202610,2026-10-18,,American Lager,W34/70,lager,7020.0,4.0,10,4,6,2.0,False,FV6,False,True,90.42,708.0,197.0,Reutilizar,1.0,False,0.0,False,0.0,
+1553,1910202610,2026-10-19,,American Lager,W34/70,lager,7020.0,4.0,10,4,0,0.0,True,FV4,False,True,97.16,1542.0,144.98,Reutilizar,1.0,False,1.0,False,0.0,
+1558,2010202610,2026-10-20,,American Lager,W34/70,lager,7020.0,4.0,10,4,1,2.0,False,FV6,False,True,,,,,,,,False,0.0,
+1568,2110202610,2026-10-21,,American Lager,W34/70,lager,3510.0,2.0,10,4,2,2.0,False,FV5,False,True,,,,,,,,False,0.0,
+1569,2210202610,2026-10-22,,American Lager,W34/70,lager,3510.0,2.0,10,4,3,0.0,True,,False,True,,,,,,,,False,0.0,
+1574,2410202610,2026-10-24,,American Lager,W34/70,lager,7020.0,4.0,10,4,5,1.0,False,FV9,False,True,,,,,,,,False,0.0,
+1575,2510202610,2026-10-25,,American Lager,W34/70,lager,7020.0,4.0,10,4,6,2.0,False,FV13,False,True,96.38,1995.0,84.05,Reutilizar,2.0,False,1.0,False,0.0,
+1586,2610202610,2026-10-26,,American Lager,W34/70,lager,3510.0,2.0,10,4,0,2.0,False,FV12,False,True,96.38,1995.0,84.05,Reutilizar,2.0,True,1.0,False,0.0,
+1587,2610202610,2026-10-26,,American Lager,W34/70,lager,3510.0,2.0,10,4,0,2.0,False,FV12,False,True,93.36,1970.0,113.48,Reutilizar,1.0,False,1.0,False,0.0,
+1592,2710202610,2026-10-27,,American Lager,W34/70,lager,7020.0,4.0,10,4,1,2.0,False,FV6,False,True,,,,,,,,False,0.0,
+1603,2810202610,2026-10-28,,American Lager,W34/70,lager,5265.0,3.0,10,4,2,1.0,False,FV9,False,True,,,,,,,,False,0.0,
