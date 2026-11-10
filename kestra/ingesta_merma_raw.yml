@@ -1,0 +1,89 @@
+id: ingesta_merma_raw
+namespace: cerveceria.pset2
+
+retry:
+  type: constant
+  interval: PT5M
+  maxAttempts: 3
+
+variables:
+  url_fuente: https://raw.githubusercontent.com/0997801643/PSET2/main/data/fuente_merma_levadura_2026.csv
+  sf_url: "jdbc:snowflake://UMJGGTS-JU36093.snowflakecomputing.com"
+  fecha_corte: "{{ (trigger.date ?? execution.startDate) | date('yyyy-MM-dd') }}"
+  semanas_ventana: 6
+
+tasks:
+  - id: crear_tablas
+    type: io.kestra.plugin.jdbc.snowflake.Queries
+    url: "{{ vars.sf_url }}"
+    username: PSET2_USER
+    privateKey: "{{ secret('SNOWFLAKE_PRIVATE_KEY') }}"
+    warehouse: PSET2_WH
+    database: CERVECERIA_DB
+    role: PSET2_ROLE
+    sql: |
+      CREATE TABLE IF NOT EXISTS RAW.MERMA_LEVADURA (
+        numero_documento VARCHAR, lote VARCHAR, fecha_coccion VARCHAR, fecha_cierre VARCHAR,
+        estilo VARCHAR, cepa VARCHAR, tipo_levadura VARCHAR, cantidad_planificada VARCHAR,
+        n_cocciones VARCHAR, mes VARCHAR, trimestre VARCHAR, dia_semana VARCHAR,
+        generacion_levadura VARCHAR, levadura_nueva VARCHAR, levadura_origen VARCHAR,
+        generacion_con_conflicto VARCHAR, con_microscopio VARCHAR, micro_viabilidad_pct VARCHAR,
+        micro_celulas_viables_m_ml VARCHAR, micro_litros_levadura VARCHAR, micro_decision VARCHAR,
+        micro_n_muestras VARCHAR, micro_origen_coincide VARCHAR, micro_gen_lodo VARCHAR,
+        micro_dato_dudoso VARCHAR, cantidad_completada VARCHAR, dias_orden VARCHAR,
+        _archivo_origen VARCHAR, _fecha_carga TIMESTAMP_NTZ
+      );
+      CREATE TRANSIENT TABLE IF NOT EXISTS RAW.MERMA_LEVADURA_LANDING LIKE RAW.MERMA_LEVADURA;
+      CREATE STAGE IF NOT EXISTS RAW.STG_FUENTE;
+
+  - id: descargar_csv
+    type: io.kestra.plugin.core.http.Download
+    uri: "{{ vars.url_fuente }}"
+
+  - id: subir_a_stage
+    type: io.kestra.plugin.jdbc.snowflake.Upload
+    url: "{{ vars.sf_url }}"
+    username: PSET2_USER
+    privateKey: "{{ secret('SNOWFLAKE_PRIVATE_KEY') }}"
+    warehouse: PSET2_WH
+    database: CERVECERIA_DB
+    role: PSET2_ROLE
+    from: "{{ outputs.descargar_csv.uri }}"
+    stageName: "@CERVECERIA_DB.RAW.STG_FUENTE"
+    prefix: merma
+    fileName: fuente.csv
+
+  - id: cargar_ventana
+    type: io.kestra.plugin.jdbc.snowflake.Queries
+    url: "{{ vars.sf_url }}"
+    username: PSET2_USER
+    privateKey: "{{ secret('SNOWFLAKE_PRIVATE_KEY') }}"
+    warehouse: PSET2_WH
+    database: CERVECERIA_DB
+    role: PSET2_ROLE
+    sql: |
+      TRUNCATE TABLE RAW.MERMA_LEVADURA_LANDING;
+
+      COPY INTO RAW.MERMA_LEVADURA_LANDING
+      FROM (
+        SELECT $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,
+               $21,$22,$23,$24,$25,$26,$27, METADATA$FILENAME, CURRENT_TIMESTAMP()
+        FROM @RAW.STG_FUENTE/merma/
+      )
+      FILE_FORMAT = (TYPE = CSV SKIP_HEADER = 1 FIELD_OPTIONALLY_ENCLOSED_BY = '"')
+      FORCE = TRUE;
+
+      DELETE FROM RAW.MERMA_LEVADURA
+      WHERE TRY_TO_DATE(fecha_coccion) >= DATEADD(week, -{{ vars.semanas_ventana }}, '{{ render(vars.fecha_corte) }}'::DATE)
+        AND TRY_TO_DATE(fecha_coccion) <  '{{ render(vars.fecha_corte) }}'::DATE;
+
+      INSERT INTO RAW.MERMA_LEVADURA
+      SELECT * FROM RAW.MERMA_LEVADURA_LANDING
+      WHERE TRY_TO_DATE(fecha_coccion) >= DATEADD(week, -{{ vars.semanas_ventana }}, '{{ render(vars.fecha_corte) }}'::DATE)
+        AND TRY_TO_DATE(fecha_coccion) <  '{{ render(vars.fecha_corte) }}'::DATE;
+
+triggers:
+  - id: quincenal
+    type: io.kestra.plugin.core.trigger.Schedule
+    cron: "0 6 1,15 * *"
+    timezone: America/Guayaquil
