@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: raw
+    database: CERVECERIA_DB
+    schema: RAW
+    tables:
+      - name: merma_levadura
+        description: "Órdenes de producción con generación de levadura y microscopio, cargadas por Kestra"

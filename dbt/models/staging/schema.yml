@@ -1,0 +1,28 @@
+version: 2
+
+models:
+  - name: stg_merma_levadura
+    description: "Órdenes de producción tipadas desde RAW. Una fila por orden; no se eliminan filas."
+    columns:
+      - name: numero_documento
+        description: "Número de la orden de producción en SAP"
+        tests:
+          - unique
+          - not_null
+      - name: fecha_coccion
+        description: "Fecha de cocción del lote"
+        tests:
+          - not_null
+      - name: estilo
+        description: "Estilo de cerveza o producto"
+        tests:
+          - not_null
+      - name: cantidad_planificada
+        description: "Litros planificados de la orden"
+        tests:
+          - not_null
+      - name: cepa
+        description: "Cepa de levadura usada"
+        tests:
+          - accepted_values:
+              values: ['W34/70', 'K-97', 'US-05', 'BE-256']

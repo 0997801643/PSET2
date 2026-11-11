@@ -48,6 +48,17 @@ services:
     depends_on:
       - postgres
 
+  dbt:
+    image: ghcr.io/dbt-labs/dbt-snowflake:1.9.latest
+    env_file: .env
+    working_dir: /usr/app
+    environment:
+      DBT_PROFILES_DIR: /usr/app
+      SNOWFLAKE_PRIVATE_KEY_PATH: /keys/rsa_key.p8
+    volumes:
+      - ./dbt:/usr/app
+      - ./keys:/keys:ro
+
 volumes:
   datos_postgres:
   datos_kestra:
