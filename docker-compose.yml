@@ -58,7 +58,24 @@ services:
     volumes:
       - ./dbt:/usr/app
       - ./keys:/keys:ro
-
+  spark:
+    image: spark:3.5.1-python3
+    user: root
+    env_file: .env
+    working_dir: /opt/spark-apps
+    environment:
+      SNOWFLAKE_PRIVATE_KEY_PATH: /keys/rsa_key.p8
+    volumes:
+      - ./spark:/opt/spark-apps
+      - ./keys:/keys:ro
+    entrypoint:
+      - /opt/spark/bin/spark-submit
+      - --conf
+      - spark.jars.ivy=/tmp/.ivy2
+      - --packages
+      - net.snowflake:spark-snowflake_2.12:3.0.0,net.snowflake:snowflake-jdbc:3.16.1
+    command: ["build_obt.py"]
+    
 volumes:
   datos_postgres:
   datos_kestra:
