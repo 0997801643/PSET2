@@ -1,0 +1,49 @@
+version: 2
+
+models:
+  - name: dim_estilo
+    description: "Dimensión de estilos de cerveza con su cepa de levadura"
+    columns:
+      - name: estilo
+        description: "Llave de la dimensión"
+        tests:
+          - unique        # además confirma que cada estilo tiene una sola cepa
+          - not_null
+
+  - name: dim_fecha
+    description: "Calendario diario"
+    columns:
+      - name: fecha
+        description: "Llave de la dimensión"
+        tests:
+          - unique
+          - not_null
+
+  - name: fct_lotes
+    description: "Hechos de producción. Grano: una fila por orden de producción"
+    columns:
+      - name: numero_documento
+        tests:
+          - unique
+          - not_null
+      - name: estilo
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_estilo')
+              field: estilo
+      - name: fecha_coccion
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_fecha')
+              field: fecha
+      - name: fecha_cierre
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_fecha')
+              field: fecha
+      - name: dias_proceso
+        description: "Días de la cocción al cierre de la orden"
+        

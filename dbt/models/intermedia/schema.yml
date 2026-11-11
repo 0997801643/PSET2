@@ -1,0 +1,25 @@
+version: 2
+
+models:
+  - name: int_merma_limpia
+    description: "Órdenes cerradas de cerveza, limpias y con merma calculada. Una fila por orden."
+    columns:
+      - name: numero_documento
+        description: "Número de la orden de producción en SAP"
+        tests:
+          - unique
+          - not_null
+      - name: cepa
+        description: "Cepa de levadura usada"
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['W34/70', 'K-97', 'US-05', 'BE-256']
+      - name: fecha_cierre
+        description: "Fecha de cierre de la orden"
+        tests:
+          - not_null
+      - name: merma_pct
+        description: "Merma de filtración y levadura en % del planificado"
+        tests:
+          - not_null  
