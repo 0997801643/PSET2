@@ -1,7 +1,13 @@
+-- =====================================================================
+-- Perfil de calidad de datos (evidencia para la sección Data Quality)
+-- Se ejecuta sobre la capa BRONZE (staging), ANTES de la limpieza.
+-- Total de órdenes en staging: 247
+-- =====================================================================
 WITH s AS (SELECT * FROM CERVECERIA_DB.BRONZE.STG_MERMA_LEVADURA),
 t AS (SELECT COUNT(*) AS total FROM s)
 SELECT dimension, problema, filas, ROUND(100 * filas / total, 1) AS pct
 FROM (
+  -- COMPLETITUD: datos que faltan
   SELECT 'Completitud' AS dimension, 'Sin generación de levadura' AS problema,
          COUNT_IF(generacion_levadura IS NULL) AS filas FROM s
   UNION ALL SELECT 'Completitud', 'Sin cantidad planificada', COUNT_IF(cantidad_planificada IS NULL) FROM s
@@ -9,6 +15,8 @@ FROM (
   UNION ALL SELECT 'Completitud', 'Sin cepa', COUNT_IF(cepa IS NULL) FROM s
   UNION ALL SELECT 'Completitud', 'Periodo microscopio sin viabilidad',
          COUNT_IF(con_microscopio AND micro_viabilidad_pct IS NULL) FROM s
+
+  -- VALIDEZ: valores fuera de lo posible
   UNION ALL SELECT 'Validez', 'Completado = 0', COUNT_IF(cantidad_completada = 0) FROM s
   UNION ALL SELECT 'Validez', 'Completado > planificado (merma negativa)',
          COUNT_IF(cantidad_completada > cantidad_planificada) FROM s
@@ -16,10 +24,14 @@ FROM (
          COUNT_IF(cantidad_completada > cantidad_planificada * 1.05) FROM s
   UNION ALL SELECT 'Validez', 'No es cerveza (sin levadura)',
          COUNT_IF(estilo IN ('Platonic', 'Turbo + Guarana Tropical')) FROM s
+
+  -- CONSISTENCIA: fuentes que no coinciden entre sí
   UNION ALL SELECT 'Consistencia', 'Generación distinta entre hojas de bitácora',
          COUNT_IF(generacion_con_conflicto) FROM s
   UNION ALL SELECT 'Consistencia', 'FV de origen no coincide con microscopio',
          COUNT_IF(micro_origen_coincide = FALSE) FROM s
+
+  -- PRECISIÓN: valores posiblemente mal registrados
   UNION ALL SELECT 'Precisión', 'Conteo de células dudoso', COUNT_IF(micro_dato_dudoso) FROM s
   UNION ALL SELECT 'Precisión', 'Merma > 20%',
          COUNT_IF((cantidad_planificada - cantidad_completada) / NULLIF(cantidad_planificada, 0) > 0.20
